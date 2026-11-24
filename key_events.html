@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events in js</title>
+</head>
+<!-- onresize, onkeypress, onscroll -->
+<body oncontextmenu="return false">
+  <button onclick="hello()">Single Click</button>
+  <button ondblclick="hello()">Double Click</button>
+  <button oncontextmenu="hello()">Right Click</button>
+  <button onmouseenter="hello()">onMouse Enter</button>
+  <button onmouseout="hello()">onMouse Out</button>
+
+  <script>
+    function hello(){
+      alert("hello");
+    }
+  </script>
+</body>
+</html>
