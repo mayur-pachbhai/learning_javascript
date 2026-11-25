@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array Elements</title>
+</head>
+<body>
+  <script>
+    // Modify and Delete
+    var a = ["Divya",28,"Male","Software Engineer"];
+    document.write(a + "<br>");
+
+    a[3] = "Software trainer";
+    document.write(a + "<br>");
+
+    delete a[2];
+     document.write(a + "<br>");
+    document.write("<hr>");
+  </script>
+
+  <script>
+    // Sorting and Reverse
+    var b = ["Divya","Saniya","Anand","Nikita","Mayur","Dinesh"];
+     document.write(b + "<br>");
+
+     b.sort();
+     document.write(b + "<br>");
+
+     b.reverse();
+     document.write(b + "<br>");
+     document.write("<hr>");
+  </script>
+
+  <script>
+    // POP And PUSH
+     var b = ["Divya","Saniya","Anand","Nikita","Mayur","Dinesh"];
+     document.write(b + "<br>");
+
+     b.pop();
+     b.pop();
+     document.write(b + "<br>");
+
+     b.push("Dinesh");
+     document.write(b + "<br>");
+     document.write("<hr>");
+  </script>
+
+  <script>
+    // Shift and Unshift
+    var b = ["Divya","Saniya","Anand","Nikita","Mayur","Dinesh"];
+     document.write(b + "<br>");
+
+     b.shift();
+      document.write(b + "<br>");
+
+    b.unshift("Deepali");
+    document.write(b + "<br>");
+    document.write("<hr>");
+  </script>
+
+  <script>
+    // Concat and Join
+    var c = ["A","B","C","D","E","F","G","H"];
+    var d = ["I","J","K","L","M","N","O","P"];
+    var z = ["Q","R","S","T","U","V","W","X"];
+
+
+    document.write(c + "<br>");
+    document.write(d + "<br>");
+
+    var e=c.concat(d);
+    document.write(e + "<br>");
+    var g=c.concat(d).concat(z);
+    document.write(g + "<br>");
+    var e=c.concat(d,z);
+    document.write(g + "<br>");
+
+    var f = e.join("-");
+    document.write(f + "<br>");
+  </script>
+
+</body>
+</html>
